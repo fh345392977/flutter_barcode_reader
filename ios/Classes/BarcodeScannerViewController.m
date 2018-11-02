@@ -85,6 +85,7 @@
 }
 
 - (void)updateFlashButton {
+    return;
     if (!self.hasTorch) {
         return;
     }
